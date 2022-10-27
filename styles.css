@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    
+}
+
+#header-logo {
+    color: black;
+    height: auto;
+    width: 200px;
+}
