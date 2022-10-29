@@ -79,6 +79,42 @@ h1 {
     width: 100px;
 }
 
+#img1 {
+    height: auto;
+    width: 200px;
+    border-color: #3882F6;
+    
+}
+
+#img2 {
+    height: auto;
+    width: 200px;
+}
+
+#img3 {
+    height: auto;
+    width: 200px;
+}
+
+#img4 {
+    height: auto;
+    width: 200px;
+}
+
+
+.main-img {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.subtext{
+    display: flex;
+    flex: 1;
+    list-style: none;
+    justify-content: space-evenly;
+}
 
 
 
