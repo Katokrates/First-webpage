@@ -73,34 +73,47 @@ h1 {
 #sign-up {
     background-color: #3882F6;
     color: #E5E7EB;
-    border-color: #3882F6;
+    border-color: #3882f6;
     border-radius: 10px;
     height: 30px;
     width: 100px;
 }
 
 #img1 {
-    height: auto;
-    width: 200px;
-    border-color: #3882F6;
-    
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
 }
 
 #img2 {
-    height: auto;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
 }
 
 #img3 {
-    height: auto;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
 }
 
 #img4 {
-    height: auto;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
 }
 
+#info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
 
 .main-img {
     display: flex;
@@ -116,5 +129,23 @@ h1 {
     justify-content: space-evenly;
 }
 
+#sub1 {
+    height: auto;
+    width: 150px;
+}
 
+#sub2 {
+    height: auto;
+    width: 150px;
+}
+
+#sub3 {
+    height: auto;
+    width: 150px;
+}
+
+#sub4 {
+    height: auto;
+    width: 150px;
+}
 
