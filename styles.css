@@ -1,10 +1,39 @@
-.header {
-    display: flex;
-    
+.header{
+    background-color: #1F2937;
 }
 
-#header-logo {
-    color: black;
-    height: auto;
-    width: 200px;
+#header-logo{
+    margin-left: 200px;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 5px;
+    }
+
+.header-text-logo{
+    flex: 1;
 }
+
+.logo-links{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-links{
+    display: flex;
+    align-items: flex-start;
+}
+
+#top-links{
+    display: flex;
+    gap: 30px;
+    margin-right: 400px;
+    align-items: center;
+}
+
+
+
+
+
+
