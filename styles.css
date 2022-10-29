@@ -119,14 +119,17 @@ h1 {
     display: flex;
     flex: 1;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
+    
 }
 
 .subtext{
     display: flex;
     flex: 1;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
 }
 
 #sub1 {
@@ -149,3 +152,24 @@ h1 {
     width: 150px;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.quote-signature {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 500px;
+}
